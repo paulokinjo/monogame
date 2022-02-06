@@ -1,0 +1,162 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin backmusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:backmusic.mp3
+
+#begin explosion.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:explosion.wav
+
+#begin helpbackground.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:helpbackground.jpg
+
+#begin helpforeground.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:helpforeground.jpg
+
+#begin menu_back.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:menu_back.wav
+
+#begin menu_scroll.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:menu_scroll.wav
+
+#begin menu_select3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:menu_select3.wav
+
+#begin menuLarge.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:menuLarge.spritefont
+
+#begin menuSmall.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:menuSmall.spritefont
+
+#begin newmeteor.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:newmeteor.wav
+
+#begin powerget.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:powerget.wav
+
+#begin powershow.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:powershow.wav
+
+#begin rockrainenhanced.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:rockrainenhanced.png
+
+#begin score.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:score.spritefont
+
+#begin SpaceBackground.dds
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SpaceBackground.dds
+
+#begin startbackground.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:startbackground.jpg
+
+#begin startmusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:startmusic.mp3
+
+#begin startSceneElements.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:startSceneElements.png
+

@@ -9,8 +9,8 @@ namespace GameEngine
 {
   public class MainGame : Game
   {
-    private const int DESIGNED_RESOLUTION_WIDTH = 640;
-    private const int DESIGNED_RESOLUTION_HEIGHT = 480;
+    private const int DESIGNED_RESOLUTION_WIDTH = 1280;
+    private const int DESIGNED_RESOLUTION_HEIGHT = 720;
     private const float DESIGNED_RESOLUTION_ASPECT_RATIO =
         DESIGNED_RESOLUTION_WIDTH / (float)DESIGNED_RESOLUTION_HEIGHT;
 
@@ -25,11 +25,7 @@ namespace GameEngine
     {
       _graphics = new GraphicsDeviceManager(this);
 
-      _graphics.PreferredBackBufferWidth = 1024;
-      _graphics.PreferredBackBufferHeight = 768;
-      _graphics.IsFullScreen = true;
 
-      _graphics.ApplyChanges();
 
       Content.RootDirectory = "Content";
       IsMouseVisible = true;
@@ -37,6 +33,12 @@ namespace GameEngine
 
     protected override void Initialize()
     {
+
+      _graphics.PreferredBackBufferWidth = DESIGNED_RESOLUTION_WIDTH;
+      _graphics.PreferredBackBufferHeight = DESIGNED_RESOLUTION_HEIGHT;
+      _graphics.IsFullScreen = false;
+      _graphics.ApplyChanges();
+
       _renderTarget = new RenderTarget2D(_graphics.GraphicsDevice,
           DESIGNED_RESOLUTION_WIDTH, DESIGNED_RESOLUTION_HEIGHT,
           false, SurfaceFormat.Color, DepthFormat.None, 0,
@@ -58,7 +60,7 @@ namespace GameEngine
 
     protected override void Update(GameTime gameTime)
     {
-        _currentGameState.HandleInput();
+      _currentGameState.HandleInput();
 
       base.Update(gameTime);
     }
@@ -109,6 +111,7 @@ namespace GameEngine
           (float)Window.ClientBounds.Height;
 
       Rectangle scaleRectangle;
+
 
       if (actualAspectRatio <= DESIGNED_RESOLUTION_ASPECT_RATIO)
       {

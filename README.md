@@ -7,7 +7,7 @@ $ dotnet new -i MonoGame.Templates.CSharp::3.8.0.1641
 
 ## Project
 ```
-$ dotnet new mgdesktopgl -o YourGameFolderNa
+$ dotnet new mgdesktopgl -o YourGameFolderName
 ```
 
 ## Content Builder
