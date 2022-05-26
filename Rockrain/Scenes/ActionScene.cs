@@ -1,4 +1,7 @@
+using System.Threading.Tasks;
 using System;
+using System.IO;
+using System.Text.Json;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
@@ -219,6 +222,14 @@ namespace Rockrain.Scenes
       if (GameOver)
       {
         SpriteBatch.Draw(_actionTexture, _gameOverPosition, GameOverRect, Color.White);
+
+        var data = JsonSerializer.Serialize<dynamic>(new {
+          Power = Player1.Power,
+          Score = Player1.Score
+        });
+        
+        var path = Environment.CurrentDirectory + "/GameScore.json";  
+        System.IO.File.WriteAllText(path, data);
       }
     }
 
