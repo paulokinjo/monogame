@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frogger", "Frogger\Frogger.csproj", "{D2E97A68-B611-4F4B-BB35-127E9796A82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockrain", "Rockrain\Rockrain.csproj", "{AB3693A2-B70D-44DE-A2EF-EF12DD9B6D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloodControl", "FloodControl\FloodControl.csproj", "{B77EAF99-307B-40AC-B214-C0ED05FE39C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2E97A68-B611-4F4B-BB35-127E9796A82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E97A68-B611-4F4B-BB35-127E9796A82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E97A68-B611-4F4B-BB35-127E9796A82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E97A68-B611-4F4B-BB35-127E9796A82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3693A2-B70D-44DE-A2EF-EF12DD9B6D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3693A2-B70D-44DE-A2EF-EF12DD9B6D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3693A2-B70D-44DE-A2EF-EF12DD9B6D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3693A2-B70D-44DE-A2EF-EF12DD9B6D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77EAF99-307B-40AC-B214-C0ED05FE39C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77EAF99-307B-40AC-B214-C0ED05FE39C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77EAF99-307B-40AC-B214-C0ED05FE39C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77EAF99-307B-40AC-B214-C0ED05FE39C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
